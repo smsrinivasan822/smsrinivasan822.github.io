@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 490">
+  <defs><radialGradient id="glow"><stop stop-color="#c4ddd2"/><stop offset="1" stop-color="#eaf0ec"/></radialGradient></defs>
+  <style>
+    .signals { stroke-dasharray: 6 24; animation: signal-flow 8s linear infinite; }
+    .nodes circle { transform-box: fill-box; transform-origin: center; animation: node-pulse 5s ease-in-out infinite; }
+    .nodes circle:nth-child(3n + 1) { animation-delay: -1.5s; }
+    .nodes circle:nth-child(3n + 2) { animation-delay: -3s; }
+    .satellites { transform-origin: 220px 228px; animation: orbit 60s linear infinite; }
+    @keyframes signal-flow { to { stroke-dashoffset: -120; } }
+    @keyframes node-pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.18); } }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) {
+      .signals, .nodes circle, .satellites { animation: none; }
+    }
+  </style>
+  <rect width="440" height="490" fill="url(#glow)"/>
+  <g fill="none" stroke="#b5cbc1" stroke-width="1">
+    <circle cx="220" cy="228" r="156"/><circle cx="220" cy="228" r="115"/><circle cx="220" cy="228" r="70"/>
+    <path d="M35 228h370M220 45v340M80 115l280 225M80 340l280-225" opacity=".5"/>
+  </g>
+  <g fill="none" stroke="#467e78" stroke-width="1.4" opacity=".7">
+    <path d="M108 152L220 94 333 166 357 282 267 344 133 316 76 237Z"/>
+    <path d="M108 152L175 208 220 94 263 222 333 166M175 208L76 237 218 280 133 316M263 222L357 282 218 280 267 344M175 208L263 222 218 280Z"/>
+    <path d="M108 152L263 222M333 166L218 280M133 316L175 208" opacity=".5"/>
+  </g>
+  <g class="signals" fill="none" stroke="#1a6865" stroke-width="2" opacity=".65">
+    <path d="M108 152L175 208 263 222 333 166M175 208L218 280 267 344M76 237L218 280 357 282"/>
+  </g>
+  <g class="nodes" fill="#1a6865" stroke="#eaf0ec" stroke-width="5">
+    <circle cx="108" cy="152" r="8"/><circle cx="220" cy="94" r="10"/><circle cx="333" cy="166" r="8"/><circle cx="357" cy="282" r="9"/><circle cx="267" cy="344" r="8"/><circle cx="133" cy="316" r="9"/><circle cx="76" cy="237" r="8"/>
+    <circle cx="175" cy="208" r="13"/><circle cx="263" cy="222" r="16"/><circle cx="218" cy="280" r="11"/>
+  </g>
+  <g class="satellites" fill="#89aaa0"><circle cx="62" cy="106" r="3"/><circle cx="375" cy="121" r="3"/><circle cx="392" cy="337" r="3"/><circle cx="60" cy="361" r="3"/></g>
+</svg>

@@ -1,0 +1,199 @@
+---
+pagetitle: "Satish Mahadevan Srinivasan | Penn State Great Valley"
+description: "Academic homepage of Satish Mahadevan Srinivasan, Associate Professor of Information Science at Penn State Great Valley."
+---
+
+```{=html}
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+  <a class="wordmark" href="#">SM<span>S.</span></a>
+  <nav aria-label="Main navigation">
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="teaching/index.html">Teaching</a>
+    <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+  </nav>
+</header>
+<main id="main-content">
+```
+
+::: {.hero}
+::: {.hero-copy}
+[PENN STATE GREAT VALLEY]{.eyebrow}
+
+# Satish Mahadevan [Srinivasan.]{.name-accent}
+
+[Associate Professor of Information Science]{.role}
+
+Exploring artificial intelligence, data analytics, and the systems that turn information into insight.
+
+::: {.hero-actions}
+[Explore my research ↓](#research){.button .button-primary}
+[Get in touch ↗](mailto:sus64@psu.edu){.button .button-secondary}
+:::
+
+[Engineering Division · Malvern, Pennsylvania]{.location}
+:::
+
+::: {.hero-art}
+![](assets/research-network.svg){.network-art fig-alt="Abstract network of connected data points, representing connections across information science."}
+
+::: {.art-caption}
+[CONNECTING IDEAS]{.eyebrow}
+
+Data. Discovery. Impact.
+:::
+:::
+:::
+
+::: {.affiliation-strip}
+[INFORMATION SCIENCE]{.eyebrow}
+
+Artificial intelligence [ / ]{.divider} Data analytics [ / ]{.divider} Applied research
+:::
+
+::: {#about .section .about-grid}
+::: {.section-heading}
+[01 / ABOUT]{.eyebrow}
+
+## An interdisciplinary perspective.
+:::
+
+::: {.about-copy}
+I am an Associate Professor of Information Science in the Engineering Division at **Penn State Great Valley**. My scholarly work spans artificial intelligence and data analytics, with applications in health, enterprise systems, and environmental prediction.
+
+My work with graduate students connects research with practical problems. Penn State has highlighted student projects I have mentored in big data and sports analytics.
+
+[View my Penn State profile ↗](https://greatvalley.psu.edu/person/satish-mahadevan-srinivasan){.text-link}
+:::
+:::
+
+::: {#research .section}
+::: {.section-heading}
+[02 / RESEARCH]{.eyebrow}
+
+## From complex data to useful knowledge.
+
+Themes reflected in my publications and collaborative projects.
+:::
+
+::: {.research-grid}
+::: {.research-card}
+[01]{.card-number}
+
+### Artificial intelligence
+
+Large language models, applied AI, and the challenges of bringing intelligent systems into real settings.
+
+[LLMs · Enterprise systems]{.card-tags}
+:::
+
+::: {.research-card}
+[02]{.card-number}
+
+### Data & predictive analytics
+
+Learning from data to support prediction and decision-making, including research on weather and sports.
+
+[Deep learning · Prediction]{.card-tags}
+:::
+
+::: {.research-card}
+[03]{.card-number}
+
+### AI security & applications
+
+Collaborative work on vulnerabilities in AI systems, alongside applications of AI in disease detection.
+
+[Security · Health]{.card-tags}
+:::
+:::
+:::
+
+::: {#publications .section .publications-section}
+::: {.publications-heading}
+::: {.section-heading}
+[03 / SELECTED WORK]{.eyebrow}
+
+## Research in focus.
+:::
+
+[Full research profile ↗](https://pure.psu.edu/en/persons/satish-mahade-van-srinivasan/){.text-link}
+:::
+
+::: {.publication}
+[2026 / BOOK]{.publication-meta}
+
+::: {.publication-details}
+### What Every Engineer Should Know About Artificial Intelligence and Big Data
+
+S. M. Srinivasan & R. S. Sangwan · CRC Press
+:::
+:::
+
+::: {.publication}
+[2026 / ARTICLE]{.publication-meta}
+
+::: {.publication-details}
+### Unleashing the Potential of Large Language Models: A Blueprint for Real-Time, Enterprise-Ready Deployments
+
+M. F. Raza, S. L. Yang & S. M. Srinivasan · *Computer*, 59(4), 195–199
+:::
+:::
+
+::: {.publication}
+[2025 / ARTICLE]{.publication-meta}
+
+::: {.publication-details}
+### KANs Layer Integration: Benchmarking Deep Learning Architectures for Tornado Prediction
+
+S. Yang, E. Vilataj, M. F. Raza & S. M. Srinivasan · *Big Data and Cognitive Computing*, 9(12), 324
+:::
+:::
+:::
+
+::: {.section .mentoring-section}
+::: {.section-heading}
+[04 / STUDENT RESEARCH]{.eyebrow}
+
+## Learning through discovery.
+:::
+
+::: {.mentoring-copy}
+Research offers students a chance to connect analytical methods with meaningful questions. Explore Penn State's stories about the students and projects I have helped mentor.
+
+- [Big data research and graduate student experience ↗](https://greatvalley.psu.edu/story/813/2016/12/12/big-data-lab-research-provides-students-competitive-advantage)
+- [Award-winning student research in sports analytics ↗](https://www.psu.edu/news/great-valley/story/great-valley-students-sports-analytics-research-poster-wins-second-place)
+:::
+:::
+
+::: {#contact .contact-section}
+::: {.contact-copy}
+[05 / CONTACT]{.eyebrow}
+
+## Let's connect.
+
+For academic inquiries, research conversations, and student projects.
+
+[sus64@psu.edu ↗](mailto:sus64@psu.edu){.contact-email}
+:::
+
+::: {.contact-details}
+**Penn State Great Valley**
+
+Engineering Division\
+220, Main Building\
+Malvern, Pennsylvania
+
+[610-725-5327](tel:+16107255327)
+:::
+:::
+
+```{=html}
+</main>
+<footer class="site-footer">
+  <span>Satish Mahadevan Srinivasan</span>
+  <span>Personal academic website · <a href="https://greatvalley.psu.edu/person/satish-mahadevan-srinivasan">Penn State faculty profile ↗</a></span>
+</footer>
+```

@@ -1,0 +1,16 @@
+project:
+  type: default
+  render:
+    - index.qmd
+    - teaching/**/*.qmd
+
+format:
+  html:
+    theme: none
+    minimal: true
+    embed-resources: true
+    page-layout: full
+    title-block-style: none
+    toc: false
+    lang: en
+    css: styles.css
