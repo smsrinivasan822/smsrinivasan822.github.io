@@ -16,7 +16,15 @@ format:
 <a href="../publications/index.html">Publications</a>
 <a href="../teaching/index.html">Teaching</a>
 <a href="index.html" aria-current="page">Course Development</a>
-<a class="nav-contact" href="../index.html#contact">Contact &#8599;</a>
+<span class="nav-actions">
+  <a class="nav-contact" href="../index.html#contact">Contact &#8599;</a>
+  <button class="nav-search" id="site-search-button" type="button" aria-label="Search the website" title="Search" aria-haspopup="dialog" aria-controls="site-search-dialog" data-site-root="../" hidden>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+  </button>
+  <a class="nav-zoom" href="https://psu.zoom.us/j/6527991306" target="_blank" rel="noopener noreferrer" aria-label="Join Zoom call (opens in a new tab)" title="Join Zoom call">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="12" height="12" rx="2"/><path d="m15 10 6-4v12l-6-4z"/></svg>
+  </a>
+</span>
 </nav>
 </header>
 <main id="main-content" class="course-development">
@@ -105,4 +113,6 @@ This course focuses on curating and cleaning large-scale datasets. The presence 
 ```{=html}
 </main>
 <footer class="site-footer teaching-footer"><span>Satish Mahadevan Srinivasan</span><a href="../index.html">Return to homepage &#8599;</a></footer>
+<script id="site-search-data" type="application/json">[]</script>
+<script src="../assets/site-search.js"></script>
 ```

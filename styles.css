@@ -133,4 +133,24 @@ nav a { text-decoration: none; }
 .filter-field input:focus-visible, .filter-field select:focus-visible, .publication-filters button:focus-visible { outline: 3px solid #b98024; outline-offset: 3px; }
 .publication-filters button { min-height: 46px; font-family: inherit; background: transparent; cursor: pointer; }
 .publication-filters[hidden], .publication[hidden], #publication-empty[hidden] { display: none; }
+.nav-actions { display: inline-flex; align-items: center; gap: 12px; flex-shrink: 0; }
+.nav-search, .nav-zoom, .site-search-close { display: inline-grid; place-items: center; width: 44px; height: 44px; padding: 10px; border: 0; border-radius: 4px; background: transparent; color: var(--ink); cursor: pointer; }
+.nav-search[hidden] { display: none; }
+.nav-search:hover, .nav-zoom:hover, .site-search-close:hover { color: var(--accent); background: #eaf0ec; }
+.nav-search:focus-visible, .nav-zoom:focus-visible, .site-search-close:focus-visible, .site-search-form input:focus-visible { outline: 3px solid #b98024; outline-offset: 3px; }
+html.site-search-open { overflow: hidden; }
+.site-search-dialog { width: min(720px, calc(100vw - 32px)); max-height: calc(100dvh - 48px); margin: min(8vh, 70px) auto; padding: 28px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); color: var(--ink); box-shadow: 0 20px 70px #142c4040; }
+.site-search-dialog::backdrop { background: #142c4080; }
+.site-search-heading { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-bottom: 20px; }
+.site-search-heading h2 { margin: 0; font-size: 1.8rem; }
+.site-search-close { flex-shrink: 0; }
+.site-search-form label { display: block; margin-bottom: 8px; color: var(--muted); font-size: .9rem; }
+.site-search-form input { width: 100%; padding: 12px; border: 1px solid #8ca5a7; border-radius: 4px; background: white; color: var(--ink); font: inherit; }
+.site-search-status { margin-block: 18px 8px; color: var(--muted); font-size: .9rem; }
+.site-search-results { list-style: none; margin: 0; padding: 0; }
+.site-search-results li { border-top: 1px solid var(--line); }
+.site-search-results a { display: block; padding: 16px 4px; text-decoration: none; overflow-wrap: anywhere; }
+.site-search-result-title { display: block; margin-bottom: 5px; font-size: 1rem; font-weight: 600; }
+.site-search-result-excerpt { display: block; color: var(--muted); font-size: .9rem; line-height: 1.6; }
+@media (max-width: 680px) { .site-search-dialog { padding: 20px; } }
 @media (max-width: 680px) { .course-list { grid-template-columns: 1fr; } nav { flex-wrap: wrap; } .coming-soon { padding: 25px; } }

@@ -36,6 +36,14 @@ Courses described only under course development (CSC 842 and CSC 894) are not
 listed as taught. Teaching periods show the first and last recorded terms,
 rather than implying continuous teaching. The CV itself is not published.
 
+## Site search
+
+The magnifying-glass button beside Contact searches the site's pages and individual
+publications. `assets/site-search.js` controls the search dialog. After each render,
+Quarto runs `scripts/build-search-index.py` with Python to refresh the embedded
+search data in every page. The index uses the rendered page content and works
+without a separate search service, including when opening the HTML files locally.
+
 ## Homepage styling
 
 The homepage content and section links live in `index.qmd`. Edit `styles.css` to

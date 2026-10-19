@@ -1,5 +1,7 @@
 project:
   type: default
+  post-render:
+    - python scripts/build-search-index.py
   render:
     - index.qmd
     - teaching/**/*.qmd
