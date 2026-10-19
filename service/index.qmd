@@ -1,0 +1,103 @@
+---
+pagetitle: "Service | Satish Mahadevan Srinivasan"
+description: "Campus service at Penn State Great Valley and service to the profession by Satish Mahadevan Srinivasan."
+format:
+  html:
+    css: ../styles.css
+---
+
+```{=html}
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+<a class="wordmark" href="../index.html">SM<span>S.</span></a>
+<nav aria-label="Main navigation">
+<a href="../index.html">Home</a>
+<a href="../index.html#research">Research</a>
+<a href="../index.html#publications">Publications</a>
+<a href="../teaching/index.html">Teaching</a>
+<a href="../course-development/index.html">Course Development</a>
+<a href="index.html" aria-current="page">Service</a>
+<a class="nav-contact" href="../index.html#contact">Contact &#8599;</a>
+</nav>
+</header>
+<main id="main-content" class="service-page">
+```
+
+::: {.teaching-intro}
+[CAMPUS & PROFESSION]{.eyebrow}
+
+# Service
+
+Contributions to campus governance, student learning, and the broader research community.
+
+[Penn State Great Valley](#campus-service) &middot; [Service to the profession](#professional-service)
+:::
+
+::: {#campus-service .service-section}
+## Service to Penn State Great Valley
+
+### Faculty Senate leadership
+
+- **Chair**, Fall 2024–present.
+- **Secretary**, Fall 2020–Fall 2024 and Fall 2017–Summer 2018.
+- **Vice-chair**, Fall 2018–Summer 2020.
+
+### Committees and campus governance
+
+- **Student Affairs Committee:** Chair, Fall 2022–Fall 2024 and Fall 2016–Spring 2020; member, Fall 2020–Fall 2022 and Fall 2013–Summer 2016.
+- **Diversity Action Council:** Member, Fall 2013–Fall 2014.
+- **Information Science Program Assessment Committee:** Member, Fall 2016–present.
+- **Data Analytics Program Assessment Committee:** Member, Fall 2017–present.
+- **Academic Integrity and Research:** Member, Fall 2016–Fall 2020.
+- **Engineering Council:** Member, 2013–present.
+
+### Student research and professional development
+
+- **Student Poster Presentations:** Organized the first four events: April 4–7, 2017; February 13–16, 2018; February 12–14, 2019; and February 13–15, 2020.
+- **Apache Spark training:** Organized a two-day workshop on “Big Data Technologies Training: Apache Spark” for Penn State Great Valley students, March 13–14, 2019.
+- **United Airlines internships:** Collaborated with United Airlines to organize internships for three Penn State Great Valley students each semester. Students worked on 14-week predictive analytics projects addressing employee injuries and aircraft damage.
+- **MPS Data Analytics capstone partnerships:** Organized 14-week student projects with GlaxoSmithKline (GSK), Datakwip Holdings Inc., United Way Chester County, and AQUA, connecting students with practical applications of big data and predictive analytics.
+:::
+
+::: {#professional-service .service-section}
+## Service to the profession
+
+### Editorial service
+
+Member of the editorial board of the *International Journal of Data Mining, Modelling and Management*.
+
+### Peer review
+
+Reviewer for papers submitted to:
+
+- *International Journal of Data Mining, Modelling and Management*
+- *International Journal of Computational Biology and Drug Design*
+- *Information Sciences*
+- *Innovations in Systems and Software Engineering*
+- *Oncoscience*
+- *Human-centric Computing and Information Sciences*
+- *BMC Bioinformatics*
+- *IEEE Systems Journal*
+- *Information and Management*
+- *Transactions on Knowledge and Data Engineering*
+- *Heliyon*
+- *Mathematical Biosciences and Engineering*
+- *Journal of Big Data: Theory and Practice*
+- *Arabian Journal for Science and Engineering*
+
+### Conference leadership
+
+- **Complex Adaptive Systems 2021 (CAS 2021):** Conference general chair.
+- **Complex Adaptive Systems 2019 (CAS 2019):** Awards committee chair and organizing committee member.
+
+### Talks and industry training
+
+- **EdTech Engage 2017**, University Park, Pennsylvania, October 5–6, 2017: Lightning talk on “Predictive Modeling and Visualization of Emotions in Twitter Feeds.”
+- **Philadelphia Big Data Symposium 2017**, University of Pennsylvania, October 13, 2017: Presented “Predictive Modeling and Visualization of Emotions in Twitter Feeds.”
+- **Guidewire Software Inc.:** Organized two three-day workshops on “Big Data Technologies Training: Apache Spark.”
+:::
+
+```{=html}
+</main>
+<footer class="site-footer teaching-footer"><span>Satish Mahadevan Srinivasan</span><a href="../index.html">Return to homepage &#8599;</a></footer>
+```

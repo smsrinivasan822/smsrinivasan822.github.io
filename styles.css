@@ -15,7 +15,7 @@ h3 { font-size: 1.35rem; }
 .site-header { display: flex; align-items: center; justify-content: space-between; padding-block: 26px; border-bottom: 1px solid var(--line); }
 .wordmark { font-family: Georgia, serif; font-size: 1.9rem; font-weight: bold; letter-spacing: -.08em; text-decoration: none; }
 .wordmark span { color: var(--accent); }
-nav { display: flex; gap: 30px; align-items: center; font-size: .9rem; }
+nav { display: flex; flex-wrap: wrap; gap: 12px 30px; align-items: center; font-size: .9rem; }
 nav a { text-decoration: none; }
 .nav-contact { border-bottom: 1px solid var(--ink); padding-block: 5px; }
 .eyebrow { font-size: .72rem; font-weight: 650; letter-spacing: .17em; color: var(--accent); }
@@ -105,7 +105,15 @@ nav a { text-decoration: none; }
 .course-item h3 a { text-decoration: none; }
 .course-item p { color: var(--muted); font-size: .85rem; margin-bottom: 0; }
 .course-item .eyebrow { color: var(--accent); }
+.course-development .teaching-intro > p,
+.course-development .course-item p,
+.course-development .course-item li { color: var(--muted); font-size: 1rem; line-height: 1.7; }
 .coming-soon { margin-block: 25px 70px; background: #eaf0ec; border: 1px solid var(--line); padding: 40px; border-radius: 4px; }
 .coming-soon h2 { margin-bottom: 10px; }
 .teaching-footer { margin-top: 45px; border-top: 1px solid var(--line); padding-top: 25px; }
+.service-page p, .service-page li { color: var(--muted); font-size: 1rem; line-height: 1.7; }
+.service-section { padding-block: 35px; border-top: 1px solid var(--line); }
+.service-section h3 { margin-block: 28px 14px; }
+.service-section ul { padding-left: 1.4rem; }
+.service-section li + li { margin-top: .5rem; }
 @media (max-width: 680px) { .course-list { grid-template-columns: 1fr; } nav { flex-wrap: wrap; } .coming-soon { padding: 25px; } }

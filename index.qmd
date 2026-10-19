@@ -12,6 +12,8 @@ description: "Academic homepage of Satish Mahadevan Srinivasan, Associate Profes
     <a href="#research">Research</a>
     <a href="#publications">Publications</a>
     <a href="teaching/index.html">Teaching</a>
+    <a href="course-development/index.html">Course Development</a>
+    <a href="service/index.html">Service</a>
     <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
   </nav>
 </header>

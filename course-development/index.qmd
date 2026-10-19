@@ -1,0 +1,108 @@
+---
+pagetitle: "Course Development | Satish Mahadevan Srinivasan"
+description: "Courses developed by Satish Mahadevan Srinivasan in data analytics, machine learning, computer science, and business process management."
+format:
+  html:
+    css: ../styles.css
+---
+
+```{=html}
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+<a class="wordmark" href="../index.html">SM<span>S.</span></a>
+<nav aria-label="Main navigation">
+<a href="../index.html">Home</a>
+<a href="../index.html#research">Research</a>
+<a href="../index.html#publications">Publications</a>
+<a href="../teaching/index.html">Teaching</a>
+<a href="index.html" aria-current="page">Course Development</a>
+<a class="nav-contact" href="../index.html#contact">Contact &#8599;</a>
+</nav>
+</header>
+<main id="main-content" class="course-development">
+```
+
+::: {.teaching-intro}
+[CURRICULUM & TEACHING]{.eyebrow}
+
+# Course Development
+
+I have been active in the development of new courses throughout my career at Penn State Great Valley. The following descriptions highlight my contributions from 2013 to the present.
+:::
+
+::: {.course-list}
+
+::: {.course-item}
+[DAAN 822]{.eyebrow}
+
+### Data Collection and Cleaning
+
+This course focuses on the tools and techniques required for collecting data and preparing them for further analysis (cleaning the data). The presence of incorrect and inconsistent data can significantly distort the results of the analysis often negating the potential benefits of information-driven approaches. As a result, a variety of research over the last decades has focused on data cleansing: computational procedures to automatically or semi-automatically identify – and, when possible, correct – errors in large data sets. The goal of this course is to explore and discuss different data collection tools and techniques in addition to learning skills for retrieving data from existing databases. To further enforce data quality and reliability this course introduces techniques for error detection and data cleaning on large databases. Students will learn the available tools and techniques for data collection including automated data collection for databases, retrieving data from available databases, data preparation and cleansing techniques, data quality and reliability and finally learn techniques to identify issues in data collection and how to clean the data.
+:::
+
+::: {.course-item}
+[SWENG 545]{.eyebrow}
+
+### Data Mining
+
+This course presents the practical benefits of data mining including data preprocessing, association mining, classification and prediction, cluster analysis, and mining complex data types. This course introduces popular data mining methods for extracting knowledge from data. Upon understanding the principles of data mining methods students will apply the learned skills and techniques to develop data mining solutions for scientific and business problems. In addition to introducing students to the supervised and unsupervised classification techniques this course also focuses on providing knowledge on current topics related to artificial intelligence such as Reinforcement Learning, Genetic programming and Swarm Intelligence.
+:::
+
+::: {.course-item}
+[DAAN 888]{.eyebrow}
+
+### Design and Implementation of Analytical Systems
+
+This course is the capstone course for the Master of Data Analytics program. This course will provide students training in designing a complete Predictive Analytics System including collecting and cleaning data/datasets, storing datasets in the Database/Data Warehouse, analyzing large scale datasets using statistical and machine learning techniques (Data Mining/Text Mining), optimizing the model by performing parameter tuning (Artificial Intelligence) and using different visualization techniques to visualize large data sets. In the Analytics Design Implementation course students will have an opportunity to integrate and apply the analytical skills and knowledge learned in the previous Data Analytics courses to real world data. A general goal is to practice previously acquired Predictive Analytics concepts and methods while also learn new ideas and practices in Predictive Analytics. More specifically the goals include the following:
+
+- Draw upon previous Predictive Analytics methods to complete a comprehensive project.
+- Read about new Predictive Analytics methods, apply, evaluate and compare them
+- Discuss and present the findings.
+- Write scientific reports/papers.
+:::
+
+::: {.course-item}
+[DAAN 881]{.eyebrow}
+
+### Data-Driven Decision Making
+
+The theory and application of several quantitative decision-making tools is studied in this course. The usefulness of these tools is illustrated using projects and case studies throughout the course. Emphasis is placed on the application of the tools and techniques and the results they generate. Finding patterns in data and appropriately grouping them are essential in the extraction of information in large datasets. This course uses Principal Component Analyses to transform highly correlated sets of data by means of orthogonal transformation. Cluster analysis is used to properly group data when working with large datasets. When the outcomes involve categorical variables, Logistic regression techniques are used to estimate the probabilistic values of the output. The decision space is divided into smaller regions using Regression tree analyses. When factors are too numerous and highly collinear, Partial Least Square Regression methods are performed. Public access datasets in the healthcare, transportation and finance industries are used to demonstrate the applications and the limitations of these techniques.
+:::
+
+::: {.course-item}
+[INSC 526]{.eyebrow}
+
+### Business Process Management and Integration
+
+This course focuses on business process management (BPM), an information technology (IT) integration paradigm for leveraging distributed IT applications, global connectivity, and enterprise application integration technologies. The goal of this course is to explore and discuss BPM-based integration solutions, including the main specifications in BPM, the key methodologies and mainstream techniques for implementing BPM-based integration solutions, and the various technologies that support BPM, such as business process modeling languages, flow controls, human interactions, process orchestration and choreography, and service computing. Students will learn numerous industrial solutions, including process modeling tools, web services and application servers, process engines, and simulation tools. In addition to that we will also spend some time discussing what Big Data means to BPM. This course will also feature discussions on case studies and guest lectures from practitioners in this field.
+:::
+
+::: {.course-item}
+[DAAN 572]{.eyebrow}
+
+### Reinforcement Learning
+
+Reinforcement learning, along with supervised learning and unsupervised learning, is one of the three basic types of machine learning. Applications of reinforcement learning span across medical intervention, robotics, game playing, autonomous driving, financial trading, and marketing, among many others. This course will cover the main theory and approaches of reinforcement learning, along with deep learning and common software libraries and packages.
+:::
+
+::: {.course-item}
+[CSC 894]{.eyebrow}
+
+### Capstone Course in Computer Science
+
+In this course students integrate and apply the skills acquired across the CSC program to design and implement a completely distributed healthcare analytics pipeline. The curriculum of this course systematically progresses through several architectural phases i.e. from foundational algorithms to advanced deployment and monitoring thus ensuring that learners build an end-to-end system that are capable of handling large-scale data securely and efficiently. By connecting concepts and learned skills from prior courses, students develop the architectural decision-making abilities needed for real-world applications like chronic disease risk prediction.
+:::
+
+::: {.course-item}
+[CSC 842]{.eyebrow}
+
+### Data Curation and Cleaning
+
+This course focuses on curating and cleaning large-scale datasets. The presence of incorrect and inconsistent data can significantly distort results of analysis, often negating the potential benefits of information-driven approaches. As a result, a variety of research over the last decades has focused on data cleansing: computational procedures to automatically or semi-automatically identify and, when possible, correct – errors in large data sets. The goal of this course is to explore and discuss different data curation and cleaning tools and techniques that help improve data quality and reliability.
+:::
+:::
+
+```{=html}
+</main>
+<footer class="site-footer teaching-footer"><span>Satish Mahadevan Srinivasan</span><a href="../index.html">Return to homepage &#8599;</a></footer>
+```

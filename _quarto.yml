@@ -3,6 +3,8 @@ project:
   render:
     - index.qmd
     - teaching/**/*.qmd
+    - course-development/index.qmd
+    - service/index.qmd
 
 format:
   html:
