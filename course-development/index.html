@@ -47,7 +47,7 @@ h3 { font-size: 1.35rem; }
 .site-header { display: flex; align-items: center; justify-content: space-between; padding-block: 26px; border-bottom: 1px solid var(--line); }
 .wordmark { font-family: Georgia, serif; font-size: 1.9rem; font-weight: bold; letter-spacing: -.08em; text-decoration: none; }
 .wordmark span { color: var(--accent); }
-nav { display: flex; gap: 30px; align-items: center; font-size: .9rem; }
+nav { display: flex; flex-wrap: wrap; gap: 12px 30px; align-items: center; font-size: .9rem; }
 nav a { text-decoration: none; }
 .nav-contact { border-bottom: 1px solid var(--ink); padding-block: 5px; }
 .eyebrow { font-size: .72rem; font-weight: 650; letter-spacing: .17em; color: var(--accent); }
@@ -143,6 +143,27 @@ nav { gap: 17px; font-size: .78rem; }
 .coming-soon { margin-block: 25px 70px; background: #eaf0ec; border: 1px solid var(--line); padding: 40px; border-radius: 4px; }
 .coming-soon h2 { margin-bottom: 10px; }
 .teaching-footer { margin-top: 45px; border-top: 1px solid var(--line); padding-top: 25px; }
+.service-page p, .service-page li { color: var(--muted); font-size: 1rem; line-height: 1.7; }
+.service-section { padding-block: 35px; border-top: 1px solid var(--line); }
+.service-section h3 { margin-block: 28px 14px; }
+.service-section ul { padding-left: 1.4rem; }
+.service-section li + li { margin-top: .5rem; }
+.site-header { gap: 28px; }
+.research-page > p, .research-next > p, .publications-page > p,
+.research-page .teaching-intro > p, .publications-page .teaching-intro > p,
+.publications-page .publication-details p { color: var(--muted); font-size: 1rem; line-height: 1.7; }
+.publications-page .publication-details p + p { margin-top: .5rem; }
+.publication-details { min-width: 0; overflow-wrap: anywhere; }
+.publication-details h3 a { text-decoration: none; }
+.publication-links a { color: var(--accent); }
+.publication-filters { display: flex; flex-wrap: wrap; align-items: end; gap: 18px; padding: 24px; margin-block: 24px; background: #eaf0ec; border: 1px solid var(--line); border-radius: 4px; }
+.filter-field { display: flex; flex-direction: column; gap: 7px; flex: 1 1 150px; }
+.filter-search { flex: 3 1 250px; }
+.filter-field label { color: var(--ink); font-size: .85rem; font-weight: 600; }
+.filter-field input, .filter-field select { width: 100%; min-width: 0; min-height: 46px; padding: 10px 12px; border: 1px solid #8ca5a7; border-radius: 3px; background: white; color: var(--ink); font: inherit; }
+.filter-field input:focus-visible, .filter-field select:focus-visible, .publication-filters button:focus-visible { outline: 3px solid #b98024; outline-offset: 3px; }
+.publication-filters button { min-height: 46px; font-family: inherit; background: transparent; cursor: pointer; }
+.publication-filters[hidden], .publication[hidden], #publication-empty[hidden] { display: none; }
 @media (max-width: 680px) { .course-list { grid-template-columns: 1fr; } nav { flex-wrap: wrap; } .coming-soon { padding: 25px; } }
 </style>
 </head>
@@ -158,8 +179,8 @@ nav { gap: 17px; font-size: .78rem; }
 <a class="wordmark" href="../index.html">SM<span>S.</span></a>
 <nav aria-label="Main navigation">
 <a href="../index.html">Home</a>
-<a href="../index.html#research">Research</a>
-<a href="../index.html#publications">Publications</a>
+<a href="../research/index.html">Research</a>
+<a href="../publications/index.html">Publications</a>
 <a href="../teaching/index.html">Teaching</a>
 <a href="index.html" aria-current="page">Course Development</a>
 <a class="nav-contact" href="../index.html#contact">Contact ↗</a>

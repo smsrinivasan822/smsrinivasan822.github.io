@@ -1,0 +1,83 @@
+---
+pagetitle: "Research | Satish Mahadevan Srinivasan"
+description: "Research in artificial intelligence, predictive analytics, AI security, and applied information science by Satish Mahadevan Srinivasan."
+format:
+  html:
+    css: ../styles.css
+---
+
+```{=html}
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+<a class="wordmark" href="../index.html">SM<span>S.</span></a>
+<nav aria-label="Main navigation">
+<a href="../index.html">Home</a>
+<a href="index.html" aria-current="page">Research</a>
+<a href="../publications/index.html">Publications</a>
+<a href="../teaching/index.html">Teaching</a>
+<a href="../course-development/index.html">Course Development</a>
+<a href="../service/index.html">Service</a>
+<a class="nav-contact" href="../index.html#contact">Contact &#8599;</a>
+</nav>
+</header>
+<main id="main-content" class="research-page">
+```
+
+::: {.teaching-intro}
+[DISCOVERY & APPLICATION]{.eyebrow}
+
+# Research
+
+From complex data to useful knowledge. My work explores artificial intelligence and data analytics, with applications in health, enterprise systems, and environmental prediction.
+:::
+
+## Research interests
+
+Themes reflected in my publications and collaborative projects.
+
+::: {.research-grid}
+::: {.research-card}
+[01]{.card-number}
+
+### Artificial intelligence
+
+Large language models, applied AI, and the challenges of bringing intelligent systems into real settings.
+
+[LLMs · Enterprise systems]{.card-tags}
+:::
+
+::: {.research-card}
+[02]{.card-number}
+
+### Data & predictive analytics
+
+Learning from data to support prediction and decision-making, including research on weather and sports.
+
+[Deep learning · Prediction]{.card-tags}
+:::
+
+::: {.research-card}
+[03]{.card-number}
+
+### AI security & applications
+
+Collaborative work on vulnerabilities in AI systems, alongside applications of AI in disease detection.
+
+[Security · Health]{.card-tags}
+:::
+:::
+
+::: {.section .research-next}
+## Publications and collaborations
+
+Explore the publications behind these research themes, including books, journal articles, conference papers, and book chapters.
+
+[Browse publications](../publications/index.html){.button .button-primary}
+
+[Penn State research profile](https://pure.psu.edu/en/persons/satish-mahade-van-srinivasan/){.text-link}
+:::
+
+```{=html}
+</main>
+<footer class="site-footer teaching-footer"><span>Satish Mahadevan Srinivasan</span><a href="../index.html">Return to homepage &#8599;</a></footer>
+```

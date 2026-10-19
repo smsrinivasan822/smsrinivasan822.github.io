@@ -9,8 +9,8 @@ description: "Academic homepage of Satish Mahadevan Srinivasan, Associate Profes
   <a class="wordmark" href="#">SM<span>S.</span></a>
   <nav aria-label="Main navigation">
     <a href="#about">About</a>
-    <a href="#research">Research</a>
-    <a href="#publications">Publications</a>
+    <a href="research/index.html">Research</a>
+    <a href="publications/index.html">Publications</a>
     <a href="teaching/index.html">Teaching</a>
     <a href="course-development/index.html">Course Development</a>
     <a href="service/index.html">Service</a>
@@ -31,7 +31,7 @@ description: "Academic homepage of Satish Mahadevan Srinivasan, Associate Profes
 Exploring artificial intelligence, data analytics, and the systems that turn information into insight.
 
 ::: {.hero-actions}
-[Explore my research ↓](#research){.button .button-primary}
+[Explore my research ↗](research/index.html){.button .button-primary}
 [Get in touch ↗](mailto:sus64@psu.edu){.button .button-secondary}
 :::
 
@@ -71,93 +71,9 @@ My work with graduate students connects research with practical problems. Penn S
 :::
 :::
 
-::: {#research .section}
-::: {.section-heading}
-[02 / RESEARCH]{.eyebrow}
-
-## From complex data to useful knowledge.
-
-Themes reflected in my publications and collaborative projects.
-:::
-
-::: {.research-grid}
-::: {.research-card}
-[01]{.card-number}
-
-### Artificial intelligence
-
-Large language models, applied AI, and the challenges of bringing intelligent systems into real settings.
-
-[LLMs · Enterprise systems]{.card-tags}
-:::
-
-::: {.research-card}
-[02]{.card-number}
-
-### Data & predictive analytics
-
-Learning from data to support prediction and decision-making, including research on weather and sports.
-
-[Deep learning · Prediction]{.card-tags}
-:::
-
-::: {.research-card}
-[03]{.card-number}
-
-### AI security & applications
-
-Collaborative work on vulnerabilities in AI systems, alongside applications of AI in disease detection.
-
-[Security · Health]{.card-tags}
-:::
-:::
-:::
-
-::: {#publications .section .publications-section}
-::: {.publications-heading}
-::: {.section-heading}
-[03 / SELECTED WORK]{.eyebrow}
-
-## Research in focus.
-:::
-
-[Full research profile ↗](https://pure.psu.edu/en/persons/satish-mahade-van-srinivasan/){.text-link}
-:::
-
-::: {.publication}
-[2026 / BOOK]{.publication-meta}
-
-::: {.publication-details}
-### What Every Engineer Should Know About Artificial Intelligence and Big Data
-
-S. M. Srinivasan & R. S. Sangwan · CRC Press
-:::
-:::
-
-::: {.publication}
-[2026 / ARTICLE]{.publication-meta}
-
-::: {.publication-details}
-### Unleashing the Potential of Large Language Models: A Blueprint for Real-Time, Enterprise-Ready Deployments
-
-M. F. Raza, S. L. Yang & S. M. Srinivasan · *Computer*, 59(4), 195–199
-:::
-:::
-
-::: {.publication}
-[2025 / ARTICLE]{.publication-meta}
-
-::: {.publication-details}
-### KANs Layer Integration: Benchmarking Deep Learning Architectures for Tornado Prediction
-
-S. Yang, E. Vilataj, M. F. Raza & S. M. Srinivasan · *Big Data and Cognitive Computing*, 9(12), 324
-:::
-:::
-:::
-
 ::: {.section .mentoring-section}
 ::: {.section-heading}
-[04 / STUDENT RESEARCH]{.eyebrow}
+[02 / STUDENT RESEARCH]{.eyebrow}
 
 ## Learning through discovery.
 :::
@@ -172,7 +88,7 @@ Research offers students a chance to connect analytical methods with meaningful 
 
 ::: {#contact .contact-section}
 ::: {.contact-copy}
-[05 / CONTACT]{.eyebrow}
+[03 / CONTACT]{.eyebrow}
 
 ## Let's connect.
 

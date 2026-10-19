@@ -5,6 +5,8 @@ project:
     - teaching/**/*.qmd
     - course-development/index.qmd
     - service/index.qmd
+    - research/index.qmd
+    - publications/index.qmd
 
 format:
   html:

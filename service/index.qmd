@@ -12,8 +12,8 @@ format:
 <a class="wordmark" href="../index.html">SM<span>S.</span></a>
 <nav aria-label="Main navigation">
 <a href="../index.html">Home</a>
-<a href="../index.html#research">Research</a>
-<a href="../index.html#publications">Publications</a>
+<a href="../research/index.html">Research</a>
+<a href="../publications/index.html">Publications</a>
 <a href="../teaching/index.html">Teaching</a>
 <a href="../course-development/index.html">Course Development</a>
 <a href="index.html" aria-current="page">Service</a>
